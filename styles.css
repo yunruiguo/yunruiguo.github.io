@@ -388,6 +388,13 @@ a {
     letter-spacing: 0;
 }
 
+.cat-accent {
+    display: block;
+    width: min(100%, 380px);
+    height: auto;
+    margin-top: 32px;
+}
+
 .section-copy p {
     margin: 0 0 18px;
     color: #3f494b;
