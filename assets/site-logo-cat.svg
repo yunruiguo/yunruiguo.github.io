@@ -7,26 +7,24 @@
   <path d="M386 225c39-17 64-46 72-84 6-29 0-56-15-70-10-10-23-10-33 0-15 15-19 45-19 82-1 31-8 54-22 69 6 2 12 3 17 3Z" fill="#fffdfa"/>
   <ellipse cx="434" cy="177" rx="31" ry="76" transform="rotate(18 434 177)" fill="#fffdfa"/>
   <path d="M98 364c45-14 102-22 171-24 45-1 87-7 126-16 22-5 47-6 73-3 36 4 69 14 98 30-44-4-88-6-133-4-55 1-111 6-167 13-62 7-118 8-168 4Z" fill="#fffdfa"/>
-  <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
-    <path d="M174 249c-12 0-23-2-32-7"/>
-    <path d="M176 266c-11 4-21 10-30 17"/>
-    <path d="M274 190c8-5 16-11 24-18"/>
-    <path d="M284 206c10 1 20 3 29 6"/>
-    <path d="M218 271c13 18 38 18 52 0"/>
-    <path d="M218 228c6 8 15 12 27 11"/>
-  </g>
-  <g fill="#ff9466">
-    <circle cx="201" cy="229" r="21"/>
-    <circle cx="259" cy="187" r="21"/>
-    <circle cx="186" cy="259" r="5" opacity="0.55"/>
-    <circle cx="286" cy="211" r="5" opacity="0.55"/>
-  </g>
-  <g fill="#fffdfa">
-    <ellipse cx="202" cy="230" rx="10" ry="15" transform="rotate(-22 202 230)"/>
-    <ellipse cx="260" cy="187" rx="10" ry="13" transform="rotate(42 260 187)"/>
-  </g>
-  <g fill="#e71921">
-    <circle cx="384" cy="145" r="7"/>
-    <circle cx="386" cy="171" r="7"/>
+  <g transform="rotate(-24 238 238)">
+    <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      <path d="M206 257c-18-4-35-4-51 1"/>
+      <path d="M207 270c-17 3-32 10-46 21"/>
+      <path d="M268 257c18-4 35-4 51 1"/>
+      <path d="M267 270c17 3 32 10 46 21"/>
+      <path d="M222 286c11 14 30 14 41 0"/>
+      <path d="M230 263c4 4 8 6 13 6s9-2 13-6"/>
+    </g>
+    <g fill="#ff9466">
+      <ellipse cx="213" cy="228" rx="20" ry="24"/>
+      <ellipse cx="267" cy="228" rx="20" ry="24"/>
+    </g>
+    <g fill="#fffdfa">
+      <ellipse cx="218" cy="223" rx="8" ry="12"/>
+      <ellipse cx="262" cy="223" rx="8" ry="12"/>
+      <circle cx="207" cy="217" r="4"/>
+      <circle cx="273" cy="217" r="4"/>
+    </g>
   </g>
 </svg>
