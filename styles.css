@@ -144,11 +144,12 @@ a {
 .hero {
     position: relative;
     overflow: hidden;
-    padding: 82px 0 54px;
+    min-height: calc(100vh - var(--header-height));
+    padding: 92px 0 54px;
     background:
-        linear-gradient(90deg, rgba(15, 118, 110, 0.09) 1px, transparent 1px),
-        linear-gradient(0deg, rgba(15, 118, 110, 0.08) 1px, transparent 1px);
-    background-size: 72px 72px;
+        linear-gradient(90deg, rgba(10, 17, 20, 0.84) 0%, rgba(10, 17, 20, 0.58) 46%, rgba(10, 17, 20, 0.28) 100%),
+        linear-gradient(0deg, rgba(10, 17, 20, 0.66) 0%, rgba(10, 17, 20, 0.1) 54%),
+        url("assets/project-background.jpg") center / cover no-repeat;
 }
 
 .hero::before {
@@ -156,8 +157,10 @@ a {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 16% 14%, rgba(217, 164, 65, 0.24), transparent 28%),
-        radial-gradient(circle at 88% 24%, rgba(185, 92, 56, 0.16), transparent 30%);
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 72px 72px;
+    opacity: 0.38;
     pointer-events: none;
 }
 
@@ -167,6 +170,10 @@ a {
     grid-template-columns: minmax(0, 1fr) 340px;
     gap: 46px;
     align-items: center;
+}
+
+.hero .eyebrow {
+    color: #f0c96a;
 }
 
 .eyebrow,
@@ -182,15 +189,17 @@ a {
 .hero h1 {
     max-width: 760px;
     margin: 0;
+    color: #fffdfa;
     font-size: clamp(3.4rem, 9vw, 7.6rem);
     line-height: 0.9;
     letter-spacing: 0;
+    text-shadow: 0 18px 48px rgba(0, 0, 0, 0.34);
 }
 
 .hero-lede {
     max-width: 690px;
     margin: 28px 0 0;
-    color: #394447;
+    color: rgba(255, 253, 250, 0.88);
     font-size: clamp(1.12rem, 2vw, 1.42rem);
     line-height: 1.55;
 }
@@ -218,19 +227,19 @@ a {
 }
 
 .button-primary {
-    background: var(--accent);
-    color: #fff;
-    box-shadow: 0 16px 36px rgba(15, 118, 110, 0.2);
+    background: #fffdfa;
+    color: #152224;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
 }
 
 .button-primary:hover {
-    background: var(--accent-strong);
+    background: #f0c96a;
 }
 
 .button-secondary {
-    background: var(--surface);
-    color: var(--text);
-    box-shadow: inset 0 0 0 1px var(--line);
+    background: rgba(255, 253, 250, 0.12);
+    color: #fffdfa;
+    box-shadow: inset 0 0 0 1px rgba(255, 253, 250, 0.46);
 }
 
 .profile-panel {
@@ -238,8 +247,9 @@ a {
     padding: 28px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: var(--radius);
-    background: linear-gradient(145deg, #23363a, #172225);
+    background: linear-gradient(145deg, rgba(35, 54, 58, 0.92), rgba(23, 34, 37, 0.88));
     color: #f9f6ef;
+    backdrop-filter: blur(10px);
     box-shadow: var(--shadow);
 }
 
@@ -305,10 +315,11 @@ a {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 54px;
     overflow: hidden;
-    border: 1px solid var(--line);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: var(--radius);
-    background: rgba(255, 253, 250, 0.8);
-    box-shadow: 0 20px 50px rgba(24, 33, 38, 0.08);
+    background: rgba(255, 253, 250, 0.86);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(12px);
 }
 
 .metrics-strip div {
