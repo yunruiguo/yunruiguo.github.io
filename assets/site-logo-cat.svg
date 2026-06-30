@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Yunrui Guo cat logo</title>
-  <desc id="desc">Original classic cartoon cat head logo with blue-gray fur, bright yellow eyes, pink ears, and clean black linework.</desc>
+  <desc id="desc">Minimal cheerful classic cartoon cat silhouette in a vivid orange circle for Yunrui Guo's personal website.</desc>
   <rect width="512" height="512" rx="112" fill="#fffdfa"/>
-  <circle cx="256" cy="256" r="212" fill="#ff9466"/>
-  <g stroke="#101820" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M119 332c-23-45-8-91 39-123l-63-69c-9-10-4-24 10-21l102 23c25-39 73-61 126-52l15-67c3-14 19-15 24-2l31 78c38 13 69 38 85 72 10 20 1 31-20 24-35-11-72-6-105 14 45 6 81 29 100 65 20 39 6 81-35 111-42 30-105 41-170 26-63-14-117-41-139-79Z" fill="#55738c" stroke-width="8"/>
-    <path d="M109 129l91 22c-21 15-36 34-44 55l-58-65c-6-7 1-14 11-12Z" fill="#ffb3a5" stroke-width="6"/>
-    <path d="M363 27l29 72c-20-6-42-8-64-5l17-64c3-11 14-12 18-3Z" fill="#ffb3a5" stroke-width="6"/>
-    <path d="M210 127c-4 30-15 53-35 70" fill="none" stroke-width="7"/>
-    <path d="M310 101c-10 18-26 34-49 47 31-8 62-7 91 4" fill="none" stroke-width="7"/>
-    <path d="M150 276c-21 1-38 9-50 25 22-5 42-2 60 8-19 9-34 23-45 42" fill="none" stroke-width="7"/>
-    <path d="M260 304c30-40 94-49 144-19 39 24 39 75-2 101-46 30-122 17-159-30-12-16-7-36 17-52Z" fill="#fffdfa" stroke-width="7"/>
-    <path d="M332 316c9 8 24 8 33 0" fill="none" stroke-width="6"/>
-    <ellipse cx="329" cy="198" rx="31" ry="54" transform="rotate(-13 329 198)" fill="#ffe72e" stroke-width="7"/>
-    <ellipse cx="397" cy="212" rx="25" ry="49" transform="rotate(-14 397 212)" fill="#ffe72e" stroke-width="7"/>
-    <ellipse cx="340" cy="216" rx="10" ry="28" transform="rotate(-12 340 216)" fill="#101820" stroke-width="0"/>
-    <ellipse cx="405" cy="231" rx="9" ry="25" transform="rotate(-12 405 231)" fill="#101820" stroke-width="0"/>
-    <ellipse cx="401" cy="291" rx="26" ry="16" transform="rotate(-12 401 291)" fill="#101820" stroke-width="6"/>
-    <ellipse cx="391" cy="286" rx="10" ry="6" transform="rotate(-12 391 286)" fill="#fffdfa" stroke-width="0"/>
-    <path d="M384 305c-22 23-57 30-87 18" fill="none" stroke-width="6"/>
-    <path d="M279 282c-37-8-75-8-115 0" fill="none" stroke-width="5"/>
-    <path d="M280 302c-39 3-75 13-108 30" fill="none" stroke-width="5"/>
-    <path d="M424 276c25-18 52-31 81-38" fill="none" stroke-width="5"/>
-    <path d="M429 296c27-3 53 1 79 10" fill="none" stroke-width="5"/>
-    <path d="M171 369c22 12 47 16 75 10" fill="none" stroke-width="6"/>
+  <circle cx="256" cy="256" r="215" fill="#ff9466"/>
+  <path d="M94 356c12-10 27-16 46-17-11-14-14-30-8-45 7-19 25-34 53-46l-15-77c-28-33-37-51-27-61 9-9 28-8 56 4 10-15 24-28 42-37 17-9 35-13 55-12l23-39c7-12 19-12 27 0l34 49c20 9 37 23 50 41 14 21 16 44 5 66 40-2 75 0 105 6 8-18 12-42 12-72 1-49 16-63 42-44 27 21 33 70 18 112-9 25-27 47-53 65 13 20 26 41 40 62 18 13 27 26 25 40h-82c-21-13-50-23-86-29-36-7-65-10-88-10-17 0-44 3-80 9-38 7-75 11-113 11-33 0-62 3-87 9l-49 14Z" fill="#fffdfa"/>
+  <path d="M386 225c39-17 64-46 72-84 6-29 0-56-15-70-10-10-23-10-33 0-15 15-19 45-19 82-1 31-8 54-22 69 6 2 12 3 17 3Z" fill="#fffdfa"/>
+  <ellipse cx="434" cy="177" rx="31" ry="76" transform="rotate(18 434 177)" fill="#fffdfa"/>
+  <path d="M98 364c45-14 102-22 171-24 45-1 87-7 126-16 22-5 47-6 73-3 36 4 69 14 98 30-44-4-88-6-133-4-55 1-111 6-167 13-62 7-118 8-168 4Z" fill="#fffdfa"/>
+  <g transform="rotate(-24 238 238)">
+    <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      <path d="M206 257c-18-4-35-4-51 1"/>
+      <path d="M207 270c-17 3-32 10-46 21"/>
+      <path d="M268 257c18-4 35-4 51 1"/>
+      <path d="M267 270c17 3 32 10 46 21"/>
+    </g>
+    <g fill="#ff9466">
+      <ellipse cx="213" cy="228" rx="20" ry="24"/>
+      <ellipse cx="267" cy="228" rx="20" ry="24"/>
+    </g>
+    <g fill="#fffdfa">
+      <ellipse cx="218" cy="223" rx="8" ry="12"/>
+      <ellipse cx="262" cy="223" rx="8" ry="12"/>
+      <circle cx="207" cy="217" r="4"/>
+      <circle cx="273" cy="217" r="4"/>
+    </g>
   </g>
 </svg>
