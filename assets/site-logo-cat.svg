@@ -9,10 +9,10 @@
   <path d="M98 364c45-14 102-22 171-24 45-1 87-7 126-16 22-5 47-6 73-3 36 4 69 14 98 30-44-4-88-6-133-4-55 1-111 6-167 13-62 7-118 8-168 4Z" fill="#fffdfa"/>
   <g transform="rotate(-24 238 238)">
     <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
-      <path d="M206 257c-18-4-35-4-51 1"/>
-      <path d="M207 270c-17 3-32 10-46 21"/>
-      <path d="M268 257c18-4 35-4 51 1"/>
-      <path d="M267 270c17 3 32 10 46 21"/>
+      <path d="M194 267c-17 0-33 4-48 13"/>
+      <path d="M196 281c-15 6-29 16-41 29"/>
+      <path d="M282 267c17 0 33 4 48 13"/>
+      <path d="M280 281c15 6 29 16 41 29"/>
     </g>
     <g fill="#ff9466">
       <ellipse cx="213" cy="228" rx="20" ry="24"/>
