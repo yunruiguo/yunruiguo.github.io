@@ -110,6 +110,18 @@ a {
     box-shadow: inset 0 0 0 1px var(--line);
 }
 
+.nav-link-cv {
+    background: var(--surface-strong);
+    color: var(--surface);
+    box-shadow: inset 0 0 0 1px rgba(30, 43, 47, 0.18);
+}
+
+.nav-link-cv:hover {
+    background: var(--accent-strong);
+    color: var(--surface);
+    box-shadow: none;
+}
+
 .nav-toggle {
     display: none;
     width: 44px;
