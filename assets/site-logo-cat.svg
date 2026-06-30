@@ -1,19 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Yunrui Guo cat logo</title>
-  <desc id="desc">Minimal white cat silhouette in a warm peach circle for Yunrui Guo's personal website.</desc>
+  <desc id="desc">Minimal cheerful white cat silhouette in a vivid orange circle for Yunrui Guo's personal website.</desc>
   <rect width="512" height="512" rx="112" fill="#fffdfa"/>
-  <circle cx="256" cy="256" r="215" fill="#ffb196"/>
-  <path d="M92 356c13-8 25-11 39-11-12-13-18-25-15-36 4-15 16-30 37-44l-21-87c-29-42-37-59-23-65 9-4 21-4 35-1l36-43 43-15 4-47c1-12 10-15 20-7l53 54c26 29 46 44 61 48 27 6 38 19 39 38 1 13-4 25-15 37 49-1 96 2 141 9 7-17 9-44 10-81 1-47 15-59 39-43 33 22 39 89 14 133-8 14-20 27-35 39l46 70c22 16 31 32 24 48h-84c-17-11-39-18-66-24-47-10-75-15-84-15-13 0-32 2-58 7-33 6-67 9-102 10-27 2-53 7-78 15l-42 12H92Z" fill="#fffdfa"/>
-  <g fill="none" stroke="#ffb196" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
-    <path d="M151 278h-17"/>
-    <path d="M152 292l-14 10"/>
-    <path d="M205 242l12 9"/>
-    <path d="M276 210l19-13"/>
-    <path d="M286 218l21 3"/>
+  <circle cx="256" cy="256" r="215" fill="#ff9466"/>
+  <path d="M89 358c15-9 29-13 45-13-14-13-21-27-18-39 4-16 18-31 39-44l-22-84c-29-41-37-58-23-65 9-5 22-4 38 1 9-15 22-30 38-43 12-10 26-17 42-21l5-42c2-12 11-15 22-7l50 51c26 28 47 43 64 47 26 7 38 21 39 40 1 13-4 26-16 39 51-2 98 1 141 8 9-20 11-48 12-84 1-47 15-59 39-43 31 22 37 87 13 130-9 16-23 31-41 43l45 68c20 15 28 30 22 45h-84c-17-10-40-18-69-24-44-10-72-15-84-15-13 0-32 3-58 7-34 6-68 10-103 11-29 1-57 6-84 14l-42 13H89Z" fill="#fffdfa"/>
+  <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <path d="M153 276c-7 1-14 1-20-1"/>
+    <path d="M155 291c-6 4-12 8-18 12"/>
+    <path d="M207 242c5 2 10 6 13 10"/>
+    <path d="M278 210c7-4 14-9 20-14"/>
+    <path d="M288 219c7 1 14 2 22 2"/>
+    <path d="M199 270c11 13 28 14 39 2"/>
   </g>
-  <g fill="#ffb196">
-    <circle cx="187" cy="245" r="20"/>
-    <circle cx="235" cy="201" r="20"/>
+  <g fill="#ff9466">
+    <circle cx="188" cy="245" r="20"/>
+    <circle cx="236" cy="201" r="20"/>
+    <circle cx="168" cy="263" r="5" opacity="0.55"/>
+    <circle cx="262" cy="219" r="5" opacity="0.55"/>
   </g>
   <g fill="#fffdfa">
     <ellipse cx="188" cy="246" rx="10" ry="14" transform="rotate(-22 188 246)"/>
