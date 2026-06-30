@@ -83,10 +83,15 @@ a {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--surface-strong);
-    color: var(--surface);
-    font-weight: 800;
-    letter-spacing: 0;
+    background: var(--surface);
+    box-shadow: 0 8px 22px rgba(24, 33, 38, 0.16);
+    overflow: hidden;
+}
+
+.nav-logo img {
+    display: block;
+    width: 44px;
+    height: 44px;
 }
 
 .nav-menu {
