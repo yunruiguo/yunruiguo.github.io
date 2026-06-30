@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Yunrui Guo personal logo</title>
-  <desc id="desc">Circular YG logo with quantitative AI graph lines and abstract cat and mouse contour motion.</desc>
+  <desc id="desc">Circular YG logo with quantitative AI graph lines, cat ears, whiskers, paw-print nodes, and abstract motion contours.</desc>
   <defs>
     <linearGradient id="outer" x1="78" x2="434" y1="60" y2="452" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f766e"/>
@@ -54,6 +54,22 @@
     <text x="150" y="152" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">Σ</text>
     <text x="326" y="181" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">x²</text>
     <text x="365" y="338" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">π</text>
+  </g>
+
+  <g fill="none" stroke="#1e2b2f" stroke-linecap="round" stroke-linejoin="round" opacity="0.78">
+    <path d="M205 244l26-38 25 39" stroke-width="7"/>
+    <path d="M306 245l25-39 25 37" stroke-width="7"/>
+    <path d="M179 286c27-5 49-4 65 2" stroke-width="5"/>
+    <path d="M178 309c27-2 49 0 66 6" stroke-width="5"/>
+    <path d="M334 290c18-7 41-9 68-6" stroke-width="5"/>
+    <path d="M334 314c18-6 41-7 67-2" stroke-width="5"/>
+  </g>
+
+  <g fill="#1e2b2f" opacity="0.78">
+    <circle cx="164" cy="329" r="8"/>
+    <circle cx="182" cy="314" r="6"/>
+    <circle cx="188" cy="337" r="6"/>
+    <circle cx="148" cy="318" r="6"/>
   </g>
 
   <g>
