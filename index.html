@@ -3,276 +3,286 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yunrui Guo - AI Engineer Portfolio</title>
+    <meta name="description" content="Yunrui Guo - AI engineer and researcher working on computer vision, generative models, robotics, and intelligent decision systems.">
+    <title>Yunrui Guo | AI Engineer & Researcher</title>
+    <link rel="preconnect" href="https://github.com">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="nav-logo">YG</a>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#home" class="nav-logo" aria-label="Yunrui Guo home">YG</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            <div id="nav-menu" class="nav-menu">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#publications" class="nav-link">Publications</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Yunrui Guo</h1>
-            <p class="hero-subtitle">Senior AI Engineer | Computer Vision & Intelligent Decision Systems</p>
-            <p class="hero-description">Specializing in deep learning, generative models, and multimodal AI solutions</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                <a href="https://github.com/yunruiguo" target="_blank" class="btn btn-secondary">View GitHub</a>
-            </div>
-        </div>
-        <div class="hero-background"></div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>As a highly motivated researcher and engineer with a solid foundation in mathematics and extensive experience in deep learning and computer vision, I specialize in generative models, foundation models, and intelligent decision systems.</p>
-                    <p>I lead technical teams, design scalable AI architectures, and mentor doctoral researchers. My work spans multimodal perception, diffusion-based generation, autonomous systems, and real-world AI deployment.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">12+</span>
-                            <span class="stat-label">Engineers Led</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">Publications</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">8+</span>
-                            <span class="stat-label">Patents Filed</span>
-                        </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow">AI Engineering / Computer Vision / Intelligent Systems</p>
+                    <h1>Yunrui Guo</h1>
+                    <p class="hero-lede">Senior AI engineer and researcher building multimodal perception, generative modeling, robotics, and foundation-model-assisted decision systems.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">View work</a>
+                        <a href="https://github.com/yunruiguo" target="_blank" rel="noopener" class="button button-secondary">GitHub profile</a>
                     </div>
                 </div>
-                <div class="skills-section">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <span class="skill-name">🤖 AI/ML</span>
-                            <p>PyTorch, TensorFlow, Hugging Face, JAX</p>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">💻 Programming</span>
-                            <p>Python, C/C++, Git, CUDA</p>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">🔬 Techniques</span>
-                            <p>Diffusion Models, Vision Transformers, LLMs</p>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">🤖 Robotics</span>
-                            <p>ROS2, NVIDIA Isaac Sim, CoppeliaSim</p>
-                        </div>
+                <aside class="profile-panel" aria-label="Profile summary">
+                    <img class="profile-photo" src="https://github.com/yunruiguo.png" alt="Yunrui Guo GitHub avatar" width="168" height="168">
+                    <div>
+                        <p class="profile-name">Yunrui Guo</p>
+                        <p class="profile-role">Senior AI Engineer</p>
                     </div>
+                    <dl class="profile-facts">
+                        <div>
+                            <dt>Focus</dt>
+                            <dd>Vision, generative AI, robotics</dd>
+                        </div>
+                        <div>
+                            <dt>Location</dt>
+                            <dd>Beijing, China</dd>
+                        </div>
+                    </dl>
+                </aside>
+            </div>
+            <div class="metrics-strip" aria-label="Career highlights">
+                <div>
+                    <strong>12+</strong>
+                    <span>Engineers led</span>
+                </div>
+                <div>
+                    <strong>15+</strong>
+                    <span>Publications</span>
+                </div>
+                <div>
+                    <strong>8+</strong>
+                    <span>Patents filed</span>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Senior AI Engineer</h3>
-                        <p class="role-meta">Intelligent Game and Decision Lab, Beijing | Jan 2022 – Dec 2025</p>
-                        <ul class="role-duties">
-                            <li>Led a team of 12 engineers in full-stack AI development, optimization, and testing</li>
-                            <li>Designed platform architecture for multimodal perception and intelligent decision systems</li>
-                            <li>Supervised doctoral students and supported academic publications</li>
-                            <li>Developed foundation model-assisted decision-making platform</li>
-                        </ul>
-                    </div>
+        <section id="about" class="section section-muted">
+            <div class="container two-column">
+                <div>
+                    <p class="section-kicker">About</p>
+                    <h2>Research depth with production engineering discipline.</h2>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Visiting Ph.D. Researcher</h3>
-                        <p class="role-meta">University of Padova, Italy | Oct 2019 – Apr 2021</p>
-                        <ul class="role-duties">
-                            <li>VIMP Computer Vision Research Group (18 months)</li>
-                            <li>Funded by China Scholarship Council</li>
-                            <li>Supervisors: Alessandro Sperduti and Lamberto Ballan</li>
-                        </ul>
-                    </div>
+                <div class="section-copy">
+                    <p>As a researcher and engineer with a foundation in mathematics and extensive experience in deep learning and computer vision, I specialize in generative models, foundation models, multimodal perception, and intelligent decision systems.</p>
+                    <p>I lead technical teams, design scalable AI architectures, mentor doctoral researchers, and work across real-world deployments in robotics, autonomous systems, and AI-assisted decision-making.</p>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="container skill-grid" aria-label="Technical skills">
+                <article class="skill-card">
+                    <span>AI/ML</span>
+                    <p>PyTorch, TensorFlow, Hugging Face, JAX</p>
+                </article>
+                <article class="skill-card">
+                    <span>Programming</span>
+                    <p>Python, C/C++, Git, CUDA</p>
+                </article>
+                <article class="skill-card">
+                    <span>Techniques</span>
+                    <p>Diffusion models, vision transformers, LLMs</p>
+                </article>
+                <article class="skill-card">
+                    <span>Robotics</span>
+                    <p>ROS2, NVIDIA Isaac Sim, CoppeliaSim</p>
+                </article>
+            </div>
+        </section>
 
-    <!-- Education Section -->
-    <section class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <h3>Doctor of Software Engineering</h3>
-                    <p class="edu-institution">National University of Defense Technology</p>
-                    <p class="edu-period">2018 – 2022</p>
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Experience</p>
+                    <h2>Applied AI leadership across research and deployment.</h2>
                 </div>
-                <div class="education-card">
-                    <h3>Master of Mathematics</h3>
-                    <p class="edu-institution">National University of Defense Technology</p>
-                    <p class="edu-period">2015 – 2017</p>
-                </div>
-                <div class="education-card">
-                    <h3>Bachelor of Applied Mathematics</h3>
-                    <p class="edu-institution">National University of Defense Technology</p>
-                    <p class="edu-period">2011 – 2015</p>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-date">Jan 2022 - Dec 2025</p>
+                            <h3>Senior AI Engineer</h3>
+                            <p class="timeline-meta">Intelligent Game and Decision Lab, Beijing</p>
+                            <ul>
+                                <li>Led a team of 12 engineers in full-stack AI development, optimization, and testing.</li>
+                                <li>Designed platform architecture for multimodal perception and intelligent decision systems.</li>
+                                <li>Supervised doctoral students and supported academic publications.</li>
+                                <li>Developed foundation model-assisted decision-making platform.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-date">Oct 2019 - Apr 2021</p>
+                            <h3>Visiting Ph.D. Researcher</h3>
+                            <p class="timeline-meta">University of Padova, Italy</p>
+                            <ul>
+                                <li>Conducted research with the VIMP Computer Vision Research Group for 18 months.</li>
+                                <li>Funded by China Scholarship Council.</li>
+                                <li>Supervisors: Alessandro Sperduti and Lamberto Ballan.</li>
+                            </ul>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
+        <section class="section section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Education</p>
+                    <h2>Mathematics and software engineering foundation.</h2>
+                </div>
+                <div class="education-grid">
+                    <article class="education-card">
+                        <h3>Doctor of Software Engineering</h3>
+                        <p>National University of Defense Technology</p>
+                        <span>2018 - 2022</span>
+                    </article>
+                    <article class="education-card">
+                        <h3>Master of Mathematics</h3>
+                        <p>National University of Defense Technology</p>
+                        <span>2015 - 2017</span>
+                    </article>
+                    <article class="education-card">
+                        <h3>Bachelor of Applied Mathematics</h3>
+                        <p>National University of Defense Technology</p>
+                        <span>2011 - 2015</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Selected Projects</p>
+                    <h2>Systems that connect models, perception, and decisions.</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card featured">
+                        <div class="project-topline">
+                            <span>Jan 2022 - Oct 2025</span>
+                        </div>
                         <h3>Multimodal Intelligent Decision Platform</h3>
-                        <span class="project-date">Jan 2022 – Oct 2025</span>
-                    </div>
-                    <p>Led design and implementation of full-system AI architecture integrating textual, visual and structured data for foundation-model–assisted decision-making.</p>
-                    <div class="project-achievement">📌 Filed 2 patents | Software copyright registered</div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Molecular Structure Generation</h3>
-                        <span class="project-date">May 2025 – Oct 2025</span>
-                    </div>
-                    <p>Developed diffusion-based molecular generation framework for drug discovery with gradient-informed teacher models and directional diffusion control.</p>
-                    <div class="project-achievement">📌 Submitted to Nature Machine Intelligence</div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Automated Dental Implant Design</h3>
-                        <span class="project-date">Oct 2024 – Apr 2025</span>
-                    </div>
-                    <p>Dual-phase generative framework integrating conditional diffusion modeling with rule-based modeling for automated 3D dental implant generation.</p>
-                    <div class="project-achievement">📌 Submitted to Nature Methods</div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Dual-Arm Robotic Sorting System</h3>
-                        <span class="project-date">Jan 2024 – Jun 2024</span>
-                    </div>
-                    <p>Developed collaborative robotic system for intelligent sorting and manipulation with simulation-to-reality pipeline using Isaac Sim and ROS2.</p>
-                    <div class="project-achievement">📌 Successfully deployed in warehouse operations</div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Edge-Device Collaborative Framework</h3>
-                        <span class="project-date">July 2024 – Sep 2024</span>
-                    </div>
-                    <p>Cooperative AI inference system combining lightweight on-device models with edge-level foundation models for joint verification.</p>
-                    <div class="project-achievement">📌 Filed 1 patent | Software copyright registered</div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>UAV Swarm Sensor Fusion</h3>
-                        <span class="project-date">June 2023 – Dec 2023</span>
-                    </div>
-                    <p>Hybrid framework integrating homogeneous and heterogeneous visual data for collaborative target search with distributed synchronization.</p>
-                    <div class="project-achievement">📌 Published 1 paper | Filed 1 patent</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="publications">
-        <div class="container">
-            <h2 class="section-title">Publications</h2>
-            <div class="publications-list">
-                <div class="publication-item">
-                    <p class="pub-title">Enhancing Cross-Modal Person Re-Identification: Multi-Scale Feature Alignment and Optimization</p>
-                    <p class="pub-authors">Tianyu Zang, <strong>Yunrui Guo*</strong>, Pan Wang et al.</p>
-                    <p class="pub-venue">The Visual Computer, 2026</p>
-                </div>
-
-                <div class="publication-item">
-                    <p class="pub-title">Conditional Variational Capsule Network for Open Set Recognition</p>
-                    <p class="pub-authors"><strong>Yunrui Guo</strong>, Guglielmo Camporese, Wenjing Yang, Alessandro Sperduti and Lamberto Ballan*</p>
-                    <p class="pub-venue">IEEE/CVF International Conference on Computer Vision (ICCV), 2021</p>
-                </div>
-
-                <div class="publication-item">
-                    <p class="pub-title">Learning Capsules for SAR Target Recognition</p>
-                    <p class="pub-authors"><strong>Yunrui Guo</strong>, Zongxu Pan, Meiming Wang, Ji Wang and Wenjing Yang*</p>
-                    <p class="pub-venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020</p>
-                </div>
-
-                <div class="publication-item">
-                    <p class="pub-title">A splitting method for the Degasperis-Procesi equation using an optimized WENO scheme</p>
-                    <p class="pub-authors"><strong>Yunrui Guo</strong>, Wenjing Yang*, Hong Zhang, Ji Wang and Songhe Song</p>
-                    <p class="pub-venue">Advances in Applied Mathematics and Mechanics, 2019</p>
-                </div>
-
-                <div class="publication-item">
-                    <p class="pub-title">A high order operator splitting method for the Degasperis-Procesi equation</p>
-                    <p class="pub-authors"><strong>Yunrui Guo</strong>, Hong Zhang*, Wenjing Yang, Ji Wang and Songhe Song</p>
-                    <p class="pub-venue">Numerical Mathematics: Theory, Methods and Applications, 2018</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h4>Email</h4>
-                        <a href="mailto:guoyunrui11@gmail.com">guoyunrui11@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <h4>Location</h4>
-                        <p>Beijing, China</p>
-                    </div>
-                    <div class="contact-item">
-                        <h4>Social Links</h4>
-                        <div class="social-links">
-                            <a href="https://linkedin.com/in/yunrui-guo" target="_blank" class="social-link">LinkedIn</a>
-                            <a href="https://github.com/yunruiguo" target="_blank" class="social-link">GitHub</a>
+                        <p>Led design and implementation of full-system AI architecture integrating textual, visual, and structured data for foundation-model-assisted decision-making.</p>
+                        <p class="project-result">Filed 2 patents / Software copyright registered</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span>May 2025 - Oct 2025</span>
                         </div>
-                    </div>
+                        <h3>Molecular Structure Generation</h3>
+                        <p>Developed a diffusion-based molecular generation framework for drug discovery with gradient-informed teacher models and directional diffusion control.</p>
+                        <p class="project-result">Submitted to Nature Machine Intelligence</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span>Oct 2024 - Apr 2025</span>
+                        </div>
+                        <h3>Automated Dental Implant Design</h3>
+                        <p>Built a dual-phase generative framework integrating conditional diffusion modeling with rule-based modeling for automated 3D dental implant generation.</p>
+                        <p class="project-result">Submitted to Nature Methods</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span>Jan 2024 - Jun 2024</span>
+                        </div>
+                        <h3>Dual-Arm Robotic Sorting System</h3>
+                        <p>Developed a collaborative robotic system for intelligent sorting and manipulation with a simulation-to-reality pipeline using Isaac Sim and ROS2.</p>
+                        <p class="project-result">Deployed in warehouse operations</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span>Jul 2024 - Sep 2024</span>
+                        </div>
+                        <h3>Edge-Device Collaborative Framework</h3>
+                        <p>Created a cooperative AI inference system combining lightweight on-device models with edge-level foundation models for joint verification.</p>
+                        <p class="project-result">Filed 1 patent / Software copyright registered</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-topline">
+                            <span>Jun 2023 - Dec 2023</span>
+                        </div>
+                        <h3>UAV Swarm Sensor Fusion</h3>
+                        <p>Designed a hybrid framework integrating homogeneous and heterogeneous visual data for collaborative target search with distributed synchronization.</p>
+                        <p class="project-result">Published 1 paper / Filed 1 patent</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section id="publications" class="section section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-kicker">Publications</p>
+                    <h2>Computer vision, open-set recognition, and applied mathematics.</h2>
+                </div>
+                <div class="publication-list">
+                    <article class="publication-item">
+                        <h3>Enhancing Cross-Modal Person Re-Identification: Multi-Scale Feature Alignment and Optimization</h3>
+                        <p>Tianyu Zang, <strong>Yunrui Guo*</strong>, Pan Wang et al.</p>
+                        <span>The Visual Computer, 2026</span>
+                    </article>
+                    <article class="publication-item">
+                        <h3>Conditional Variational Capsule Network for Open Set Recognition</h3>
+                        <p><strong>Yunrui Guo</strong>, Guglielmo Camporese, Wenjing Yang, Alessandro Sperduti and Lamberto Ballan*</p>
+                        <span>IEEE/CVF International Conference on Computer Vision (ICCV), 2021</span>
+                    </article>
+                    <article class="publication-item">
+                        <h3>Learning Capsules for SAR Target Recognition</h3>
+                        <p><strong>Yunrui Guo</strong>, Zongxu Pan, Meiming Wang, Ji Wang and Wenjing Yang*</p>
+                        <span>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2020</span>
+                    </article>
+                    <article class="publication-item">
+                        <h3>A splitting method for the Degasperis-Procesi equation using an optimized WENO scheme</h3>
+                        <p><strong>Yunrui Guo</strong>, Wenjing Yang*, Hong Zhang, Ji Wang and Songhe Song</p>
+                        <span>Advances in Applied Mathematics and Mechanics, 2019</span>
+                    </article>
+                    <article class="publication-item">
+                        <h3>A high order operator splitting method for the Degasperis-Procesi equation</h3>
+                        <p><strong>Yunrui Guo</strong>, Hong Zhang*, Wenjing Yang, Ji Wang and Songhe Song</p>
+                        <span>Numerical Mathematics: Theory, Methods and Applications, 2018</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-layout">
+                <div>
+                    <p class="section-kicker">Contact</p>
+                    <h2>Open to research and engineering conversations.</h2>
+                </div>
+                <div class="contact-card">
+                    <a href="mailto:guoyunrui11@gmail.com">guoyunrui11@gmail.com</a>
+                    <a href="https://github.com/yunruiguo" target="_blank" rel="noopener">github.com/yunruiguo</a>
+                    <a href="https://linkedin.com/in/yunrui-guo" target="_blank" rel="noopener">linkedin.com/in/yunrui-guo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-inner">
             <p>&copy; 2026 Yunrui Guo. All rights reserved.</p>
-            <p>Last updated: June 2026</p>
+            <a href="#home">Back to top</a>
         </div>
     </footer>
 
