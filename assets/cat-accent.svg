@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cat accent illustration</title>
+  <desc id="desc">Minimal white cat silhouette resting under a warm peach arch.</desc>
+  <path d="M46 424a334 334 0 0 1 668 0H46Z" fill="#ffb196"/>
+  <path d="M120 424c15-9 28-12 44-13-14-15-23-30-20-41 4-17 17-34 42-51l-25-101c-33-47-42-66-26-73 10-5 23-5 39-1l42-50 50-17 5-55c1-13 11-17 23-8l61 63c30 33 53 51 70 55 31 7 44 22 46 45 1 14-4 29-17 43 56-1 110 2 162 10 9-20 11-52 11-94 1-55 17-69 45-50 38 25 45 103 16 154-9 16-23 31-40 45l53 82c26 19 36 37 28 56h-98c-19-13-45-22-77-28-55-12-87-18-97-18-15 0-37 3-67 8-38 7-78 10-119 11-31 2-61 8-91 17l-49 14H120Z" fill="#fffdfa"/>
+  <g fill="none" stroke="#ffb196" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M188 334h-20"/>
+    <path d="M190 350l-17 12"/>
+    <path d="M252 292l14 10"/>
+    <path d="M335 254l22-16"/>
+    <path d="M346 263l25 3"/>
+  </g>
+  <g fill="#ffb196">
+    <circle cx="230" cy="296" r="24"/>
+    <circle cx="286" cy="244" r="24"/>
+  </g>
+  <g fill="#fffdfa">
+    <ellipse cx="231" cy="297" rx="12" ry="17" transform="rotate(-22 231 297)"/>
+    <ellipse cx="287" cy="244" rx="12" ry="15" transform="rotate(42 287 244)"/>
+  </g>
+  <g fill="#e71921">
+    <circle cx="452" cy="171" r="7"/>
+    <circle cx="454" cy="203" r="7"/>
+  </g>
+</svg>
