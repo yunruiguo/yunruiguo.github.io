@@ -9,6 +9,12 @@
   <path d="M98 364c45-14 102-22 171-24 45-1 87-7 126-16 22-5 47-6 73-3 36 4 69 14 98 30-44-4-88-6-133-4-55 1-111 6-167 13-62 7-118 8-168 4Z" fill="#fffdfa"/>
   <g transform="rotate(-24 238 238)">
     <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      <path d="M158 214c-22 22-33 49-31 78 2 34 24 62 60 76"/>
+      <path d="M187 368c35 17 78 16 112-2 34-18 52-47 51-80-1-28-15-52-39-70"/>
+      <path d="M158 214c-10-29-16-58-17-86 26 18 47 41 62 68"/>
+      <path d="M302 196c17-22 39-39 66-52-4 31-13 58-27 82"/>
+    </g>
+    <g fill="none" stroke="#ff9466" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
       <path d="M194 267c-17 0-33 4-48 13"/>
       <path d="M196 281c-15 6-29 16-41 29"/>
       <path d="M282 267c17 0 33 4 48 13"/>
