@@ -377,14 +377,14 @@ a {
 }
 
 .section-heading {
-    max-width: 760px;
+    max-width: 1120px;
     margin-bottom: 34px;
 }
 
 .section h2 {
     margin: 0;
-    font-size: clamp(2rem, 4vw, 3.35rem);
-    line-height: 1.05;
+    font-size: clamp(1.7rem, 2.5vw, 2.25rem);
+    line-height: 1.18;
     letter-spacing: 0;
 }
 
