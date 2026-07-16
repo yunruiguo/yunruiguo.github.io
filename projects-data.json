@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "Multimodal Intelligent Decision Platform",
+      "repo": "https://github.com/yunruiguo/multimodal-decision-platform"
+    },
+    {
+      "title": "LLM-Agent Molecular Discovery Workflow",
+      "repo": "https://github.com/yunruiguo/llm-agent-molecular-discovery"
+    },
+    {
+      "title": "Interpretable 3D Volumetric Generation",
+      "repo": "https://github.com/yunruiguo/3d-volumetric-generation"
+    },
+    {
+      "title": "Edge-Device Collaborative Recognition Framework",
+      "repo": "https://github.com/yunruiguo/edge-collaborative-recognition"
+    },
+    {
+      "title": "Dual-Arm Robotic Sorting System",
+      "repo": "https://github.com/yunruiguo/dual-arm-robotic-sorting"
+    },
+    {
+      "title": "Hybrid Multi-Sensor Fusion for UAV Swarms",
+      "repo": "https://github.com/yunruiguo/uav-swarm-fusion"
+    },
+    {
+      "title": "Lightweight ToF Hidden Camera Detection",
+      "repo": "https://github.com/yunruiguo/tof-camera-detection"
+    },
+    {
+      "title": "High-Precision Pallet Pose Estimation",
+      "repo": "https://github.com/yunruiguo/pallet-pose-estimation"
+    },
+    {
+      "title": "HopeFOAM Parallel CFD Computing Platform",
+      "repo": "https://github.com/yunruiguo/HopeFOAM"
+    }
+  ]
+}
