@@ -533,10 +533,25 @@ a {
     flex-direction: column;
 }
 
+.project-card:is(a) {
+    cursor: pointer;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.project-card:is(a):hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(24, 33, 38, 0.16);
+    border-color: var(--accent-strong);
+}
+
 .project-card.featured {
     grid-column: span 2;
     background: var(--surface-strong);
     color: var(--surface);
+}
+
+.project-card.featured:is(a):hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.24);
 }
 
 .project-card.featured h3,
