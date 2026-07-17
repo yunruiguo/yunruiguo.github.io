@@ -193,14 +193,22 @@ a {
     color: #f0c96a;
 }
 
-.eyebrow,
-.section-kicker {
+.eyebrow {
     margin: 0 0 14px;
     color: var(--accent-strong);
     font-size: 0.78rem;
     font-weight: 800;
     letter-spacing: 0.13em;
     text-transform: uppercase;
+}
+
+.section-kicker {
+    margin: 0 0 10px;
+    color: var(--accent-strong);
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: 0;
 }
 
 .hero h1 {
@@ -382,9 +390,12 @@ a {
 }
 
 .section h2 {
+    max-width: 780px;
     margin: 0;
-    font-size: clamp(1.7rem, 2.5vw, 2.25rem);
-    line-height: 1.18;
+    color: var(--muted);
+    font-size: 1.06rem;
+    font-weight: 600;
+    line-height: 1.5;
     letter-spacing: 0;
 }
 
@@ -601,6 +612,10 @@ a {
     color: var(--gold);
 }
 
+.contact-section h2 {
+    color: #d8e2de;
+}
+
 .contact-card {
     display: grid;
     gap: 10px;
@@ -745,6 +760,14 @@ a {
 
     .section {
         padding: 66px 0;
+    }
+
+    .section-kicker {
+        font-size: 2.125rem;
+    }
+
+    .section h2 {
+        font-size: 1rem;
     }
 
     .skill-grid,
