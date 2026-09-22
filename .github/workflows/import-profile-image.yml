@@ -1,0 +1,29 @@
+name: Import profile portrait
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-profile-image.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download portrait
+        run: |
+          curl --fail --location 'https://d2jqrm6oza8nb6.cloudfront.net/datasets/8ea98017-1e16-4c73-a7e7-8ffbc749af82.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzJjMDlkYmJlMWYxM2FlNSIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIyMDA5MX0.tlqA7Sdgbjpkaj8Y6Kmmuc4w984xxE7GUbZFMHkEB5I' --output assets/profile-portrait.png
+          test -s assets/profile-portrait.png
+      - name: Commit portrait and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-portrait.png
+          git rm .github/workflows/import-profile-image.yml
+          git commit -m "Add profile portrait"
+          git push
